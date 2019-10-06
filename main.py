@@ -1,7 +1,7 @@
 from read import funcaoObjetivo, restricoes
 from calcular import colunaPivo, linhaPivo, novasLinhas, valores
 
-arq = open('exemplo.txt', 'r')
+arq = open('variaveis.txt', 'r')
 texto = arq.readlines()
 
 fo = funcaoObjetivo(texto)
