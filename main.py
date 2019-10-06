@@ -1,9 +1,12 @@
+from read import funcaoObjetivo, restricoes
 from calcular import colunaPivo, linhaPivo, novasLinhas, valores
 
-fo = [1, -3.0, -5.0, 0]
-r = [[0, 2.0, 4.0, 10.0], [0, 6.0, 1.0, 20.0], [0, 1.0, -1.0, 30.0]]
-b = [0, 10.0, 20.0, 30.0]
-qtde = 3
+arq = open('exemplo.txt', 'r')
+texto = arq.readlines()
+
+fo = funcaoObjetivo(texto)
+r,b = restricoes(texto)
+qtde = int(len(r))
 
 a = int(len(r[0])-1)
 for i in range(0, len(r)):
