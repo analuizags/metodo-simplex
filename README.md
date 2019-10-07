@@ -12,14 +12,7 @@ Desenvolvido com python3 para, inicialmente resolver problemas de programação 
 
 ## Para inserção da equação
 
-Deve-se inserir nas variáveis, dentro do arquivo ```variaveis.txt```, na qual, todos os números que são multiplicados com as incógnitas respectivos ao que representam em cada uma das equações (função objetivo e restrições), além da quantidade de restrições. Onde: 
- 
- * fo, significa os valores da função objetivo
- * r, valores das restrições antes da igualdade
- * b, valores das restrições depois da igualdade
- * qtde, quantidade de restrições do problema
-
-De acordo com o exemplo:
+Deve-se inserir nas variáveis, dentro do arquivo ```variaveis.txt```, seguinto exatamente a ordem dos fatores. Sendo primeiro a função objetivo e posteriormente as restrições do problema, um em cada linha do arquivo. De acordo com o exemplo abaixo:
 
 #### Equações do problema:
 ```
