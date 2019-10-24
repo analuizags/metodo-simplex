@@ -21,10 +21,3 @@ Deve-se inserir nas variáveis, dentro do arquivo ```variaveis.txt```, na qual, 
    6x + 1x <= 20
    1x - 1x <= 30
 ```
-#### Inserção no codigo:
-```
-   fo = [1, -3.0, -5.0, 0] 
-   r = [[0, 2.0, 4.0, 10.0], [0, 6.0, 1.0, 20.0], [0, 1.0, -1.0, 30.0]] 
-   b = [0, 10.0, 20.0, 30.0] 
-   qtde = 3
- ```
