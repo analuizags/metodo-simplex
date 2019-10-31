@@ -14,6 +14,8 @@ Desenvolvido com python3 para, inicialmente resolver problemas de programação 
 
 Deve-se inserir nas variáveis, dentro do arquivo ```variaveis.txt```, seguinto exatamente a ordem dos fatores. Sendo primeiro a função objetivo e posteriormente as restrições do problema, um em cada linha do arquivo. De acordo com o exemplo abaixo:
 
+#### Equações do problema:
+
 ```
    z = 3x + 5x 
    2x + 4x <= 10
